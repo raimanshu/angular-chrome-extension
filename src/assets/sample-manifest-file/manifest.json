@@ -1,0 +1,12 @@
+{    
+    "name": "Angular Charome Extension",
+    "version": "1.0",
+    "description": "This extension ie Angular Chrome Extension is just for learning purpose",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_icon": {
+            "19": "assets/one.png"
+        },
+        "default_popup": "index.html"
+    }
+}
