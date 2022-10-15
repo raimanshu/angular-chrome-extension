@@ -1,3 +1,22 @@
+Need to add manifest file
+taking chromepage data and manipulate it and return new data
+
+
+src/assets/sample-manifest-file/manifest.json
+{    
+    "name": "Angular Charome Extension",
+    "version": "1.0",
+    "description": "This extension ie Angular Chrome Extension is just for learning purpose",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_icon": {
+            "19": "assets/one.png"
+        },
+        "default_popup": "index.html"
+    }
+}
+
+
 # AngularChromeExtension
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.6.
